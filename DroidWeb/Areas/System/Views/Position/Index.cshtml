@@ -1,0 +1,116 @@
+﻿
+@using DroidWeb
+@using DroidWeb.Utils.Helpers
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@model DroidWeb.Areas.System.Models.PositionModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Acquired positions</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th class="index-th"><span>Module name</span></th>
+            <th class="index-th"><span>System type</span></th>
+            <th class="index-th"><span>Position valid</span></th>
+            <th class="index-th"><span>X position</span></th>
+            <th class="index-th"><span>Y position</span></th>
+            <th class="index-th"><span>Z position</span></th>
+            <th class="index-th"><span>X deviation</span></th>
+            <th class="index-th"><span>Y deviation</span></th>
+            <th class="index-th"><span>Z deviation</span></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.AcquiredPositions)
+        {
+            <tr>
+                <td>
+                    <span>@item.Module.Name</span>
+                </td>
+                <td>
+                    <span>@item.Type</span>
+                </td>
+                <td>
+                    <span>@item.Valid</span>
+                </td>
+                <td>
+                    <span>@Html.DoubleToAngle(item.X)</span>
+                </td>
+                <td>
+                    <span>@Html.DoubleToAngle(item.Y)</span>
+                </td>
+                <td>
+                    <span>@Html.DoubleToAngle(item.Z)</span>
+                </td>
+                <td>
+                    <span>@Html.DoubleToAngle(item.DeviationX)</span>
+                </td>
+                <td>
+                    <span>@Html.DoubleToAngle(item.DeviationY)</span>
+                </td>
+                <td>
+                    <span>@Html.DoubleToAngle(item.DeviationZ)</span>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+
+<br>
+<hr />
+<br>
+
+<h2>Precise position</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th class="index-th"><span>Module name</span></th>
+            <th class="index-th"><span>System type</span></th>
+            <th class="index-th"><span>Position valid</span></th>
+            <th class="index-th"><span>X position</span></th>
+            <th class="index-th"><span>Y position</span></th>
+            <th class="index-th"><span>Z position</span></th>
+            <th class="index-th"><span>X deviation</span></th>
+            <th class="index-th"><span>Y deviation</span></th>
+            <th class="index-th"><span>Z deviation</span></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <span>@Model.PrecisePosition.Module.Name</span>
+            </td>
+            <td>
+                <span>@Model.PrecisePosition.Type</span>
+            </td>
+            <td>
+                <span>@Model.PrecisePosition.Valid</span>
+            </td>
+            <td>
+                <span>@Html.DoubleToAngle(Model.PrecisePosition.X)</span>
+            </td>
+            <td>
+                <span>@Html.DoubleToAngle(Model.PrecisePosition.Y)</span>
+            </td>
+            <td>
+                <span>@Html.DoubleToAngle(Model.PrecisePosition.Z)</span>
+            </td>
+            <td>
+                <span>@Html.DoubleToAngle(Model.PrecisePosition.DeviationX)</span>
+            </td>
+            <td>
+                <span>@Html.DoubleToAngle(Model.PrecisePosition.DeviationY)</span>
+            </td>
+            <td>
+                <span>@Html.DoubleToAngle(Model.PrecisePosition.DeviationZ)</span>
+            </td>
+        </tr>
+    </tbody>
+</table>

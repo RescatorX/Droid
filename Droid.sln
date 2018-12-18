@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DroidWeb", "DroidWeb\DroidWeb.csproj", "{89B5EF3D-5488-4A10-8BA5-80AEA277D0EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89B5EF3D-5488-4A10-8BA5-80AEA277D0EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B5EF3D-5488-4A10-8BA5-80AEA277D0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B5EF3D-5488-4A10-8BA5-80AEA277D0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B5EF3D-5488-4A10-8BA5-80AEA277D0EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2E1E09D-5DC4-47EE-B2B7-ED8FAD47EEB4}
+	EndGlobalSection
+EndGlobal
