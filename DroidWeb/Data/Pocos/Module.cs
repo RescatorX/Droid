@@ -1,17 +1,13 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace DroidWeb.Data.Entities
 {
-    public class HWModule : BaseEntity
+    public partial class Module : BaseEntity
     {
-        public string Name { get; set; }
-        public string Type { get; set; }
-        public string Brand { get; set; }
-        public string Version { get; set; }
-
-        public HWModule()
+        public Module()
             : base()
         {
             this.Name = string.Empty;
@@ -20,7 +16,7 @@ namespace DroidWeb.Data.Entities
             this.Version = string.Empty;
         }
 
-        public HWModule(string name = null, string type = null, string brand = null, string version = null)
+        public Module(string name = null, string type = null, string brand = null, string version = null)
             : base()
         {
             this.Name = name;

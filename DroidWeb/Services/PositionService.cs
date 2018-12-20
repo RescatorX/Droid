@@ -31,9 +31,9 @@ namespace DroidWeb.Services
             {
                 return new List<Position>()
                 {
-                    new Position(new HWModule("Module1", "ModuleType1", "Nova Robotics"), PositionProviderType.GPS, true, 16.206, 50.101, 0.154, 5.1, 4.2),
-                    new Position(new HWModule("Module2", "ModuleType2", "Nova Robotics"), PositionProviderType.GSM, true, 16.252, 50.153, 0.105, 6.3),
-                    new Position(new HWModule("Module3", "ModuleType3", "Nova Robotics"), PositionProviderType.Glonass, false, 16.225, 50.115, 0.010, 2.1),
+                    new Position(new Module("Module1", "ModuleType1", "Nova Robotics"), PositionProviderType.GPS, true, 16.206, 50.101, 0.154, 5.1, 4.2),
+                    new Position(new Module("Module2", "ModuleType2", "Nova Robotics"), PositionProviderType.GSM, true, 16.252, 50.153, 0.105, 6.3),
+                    new Position(new Module("Module3", "ModuleType3", "Nova Robotics"), PositionProviderType.Glonass, false, 16.225, 50.115, 0.010, 2.1),
                 };
             });
         }

@@ -42,7 +42,7 @@ namespace DroidWeb.Areas.System.Controllers
         {
             return await Task.Run(async () =>
             {
-                List<HWModule> modules = new List<HWModule>();
+                List<Module> modules = new List<Module>();
                 uint ticks = 0;
                 if (this.hardwareService != null)
                 {

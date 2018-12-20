@@ -15712,3 +15712,668 @@ System.AggregateException: One or more errors occurred. (The method or operation
 2018-12-18 17:26:46.988 +01:00 [Information] Executing JsonResult, writing value of type '"System.UInt32"'.
 2018-12-18 17:26:46.992 +01:00 [Information] Executed action "DroidWeb.Areas.System.Controllers.HardwareController.GetTicks (DroidWeb)" in 26.9129ms
 2018-12-18 17:26:46.999 +01:00 [Information] Request finished in 37.1205ms 200 application/json; charset=utf-8
+2018-12-19 15:15:07.596 +01:00 [Information] User profile is available. Using '"C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-19 15:15:56.195 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:56604/  0
+2018-12-19 15:15:56.196 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/  
+2018-12-19 15:15:56.370 +01:00 [Information] Request finished in 1926.6751ms 200 
+2018-12-19 15:15:57.295 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\", page = \"\"}". Executing action "DroidWeb.Controllers.HomeController.Index (DroidWeb)"
+2018-12-19 15:15:57.629 +01:00 [Information] Executing action method "DroidWeb.Controllers.HomeController.Index (DroidWeb)" - Validation state: Valid
+2018-12-19 15:15:57.646 +01:00 [Information] Executed action method "DroidWeb.Controllers.HomeController.Index (DroidWeb)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 1.1004ms.
+2018-12-19 15:15:57.718 +01:00 [Information] Executing ViewResult, running view "Index".
+2018-12-19 15:15:57.748 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-12-19 15:15:57.917 +01:00 [Information] Executed ViewResult - view "Index" executed in 225.7086ms.
+2018-12-19 15:15:57.922 +01:00 [Information] Executed action "DroidWeb.Controllers.HomeController.Index (DroidWeb)" in 620.8351ms
+2018-12-19 15:15:57.944 +01:00 [Information] Request finished in 3522.3091ms 200 text/html; charset=utf-8
+2018-12-19 15:15:57.967 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/lib/bootstrap/dist/css/bootstrap.css  
+2018-12-19 15:15:57.979 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/lib/bootstrap/dist/js/bootstrap.js  
+2018-12-19 15:15:57.980 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/css/site.css  
+2018-12-19 15:15:57.986 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/images/banner1.svg  
+2018-12-19 15:15:57.998 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/lib/jquery/dist/jquery.js  
+2018-12-19 15:15:58.014 +01:00 [Information] The file "/lib/bootstrap/dist/js/bootstrap.js" was not modified
+2018-12-19 15:15:58.017 +01:00 [Information] The file "/lib/bootstrap/dist/css/bootstrap.css" was not modified
+2018-12-19 15:15:58.018 +01:00 [Information] The file "/images/banner1.svg" was not modified
+2018-12-19 15:15:58.020 +01:00 [Information] The file "/lib/jquery/dist/jquery.js" was not modified
+2018-12-19 15:15:58.024 +01:00 [Information] The file "/css/site.css" was not modified
+2018-12-19 15:15:58.028 +01:00 [Information] Request finished in 58.6508ms 304 application/javascript
+2018-12-19 15:15:58.029 +01:00 [Information] Request finished in 68.3168ms 304 text/css
+2018-12-19 15:15:58.035 +01:00 [Information] Request finished in 45.0527ms 304 image/svg+xml
+2018-12-19 15:15:58.042 +01:00 [Information] Request finished in 45.2327ms 304 application/javascript
+2018-12-19 15:15:58.044 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/images/banner2.svg  
+2018-12-19 15:15:58.054 +01:00 [Information] The file "/images/banner2.svg" was not modified
+2018-12-19 15:15:58.059 +01:00 [Information] Request finished in 64.2872ms 304 text/css
+2018-12-19 15:15:58.068 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2018-12-19 15:15:58.077 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/images/banner3.svg  
+2018-12-19 15:15:58.081 +01:00 [Information] The file "/images/banner3.svg" was not modified
+2018-12-19 15:15:58.102 +01:00 [Information] Request finished in 29.1832ms 304 image/svg+xml
+2018-12-19 15:15:58.106 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2018-12-19 15:15:58.113 +01:00 [Information] The file "/js/site.js" was not modified
+2018-12-19 15:15:58.128 +01:00 [Information] The file "/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" was not modified
+2018-12-19 15:15:58.143 +01:00 [Information] Request finished in 24.5362ms 304 image/svg+xml
+2018-12-19 15:15:58.173 +01:00 [Information] Request finished in 49.5296ms 304 font/woff2
+2018-12-19 15:15:58.181 +01:00 [Information] Request finished in 53.8122ms 304 application/javascript
+2018-12-19 15:16:11.852 +01:00 [Error] An error occurred using the connection to database '"aspnet-DroidWeb-D1BF49B8-DB09-48E0-BF81-5DB8AEF01BBD"' on server '"(localdb)\mssqllocaldb"'.
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "aspnet-DroidWeb-D1BF49B8-DB09-48E0-BF81-5DB8AEF01BBD" requested by the login. The login failed.
+Login failed for user 'WIN-CAUNPVL5R4J\Administrator'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+ClientConnectionId:1d3e93b0-dd8b-43cf-b9a6-fcb07b22261d
+Error Number:4060,State:1,Class:11
+2018-12-19 15:16:11.932 +01:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"DroidWeb.Data.ApplicationDbContext"'."
+""System.Data.SqlClient.SqlException (0x80131904): Cannot open database \"aspnet-DroidWeb-D1BF49B8-DB09-48E0-BF81-5DB8AEF01BBD\" requested by the login. The login failed.
+Login failed for user 'WIN-CAUNPVL5R4J\Administrator'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+ClientConnectionId:1d3e93b0-dd8b-43cf-b9a6-fcb07b22261d
+Error Number:4060,State:1,Class:11"
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "aspnet-DroidWeb-D1BF49B8-DB09-48E0-BF81-5DB8AEF01BBD" requested by the login. The login failed.
+Login failed for user 'WIN-CAUNPVL5R4J\Administrator'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+ClientConnectionId:1d3e93b0-dd8b-43cf-b9a6-fcb07b22261d
+Error Number:4060,State:1,Class:11
+2018-12-19 15:16:45.158 +01:00 [Fatal] An error occurred starting the application
+System.AggregateException: One or more errors occurred. (Cannot open database "aspnet-DroidWeb-D1BF49B8-DB09-48E0-BF81-5DB8AEF01BBD" requested by the login. The login failed.
+Login failed for user 'WIN-CAUNPVL5R4J\Administrator'.) (The method or operation is not implemented.) ---> System.Data.SqlClient.SqlException: Cannot open database "aspnet-DroidWeb-D1BF49B8-DB09-48E0-BF81-5DB8AEF01BBD" requested by the login. The login failed.
+Login failed for user 'WIN-CAUNPVL5R4J\Administrator'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DroidWeb.Services.HardwareService.ProcessInScope(IServiceProvider serviceProvider) in C:\Work\Core\Droid\DroidWeb\Services\HardwareService.cs:line 45
+   at DroidWeb.Services.Processors.ScopedProcessor.Process() in C:\Work\Core\Droid\DroidWeb\Services\Processors\ScopedProcessor.cs:line 30
+   at DroidWeb.Services.BackgroundService.ExecuteAsync(CancellationToken stoppingToken) in C:\Work\Core\Droid\DroidWeb\Services\BackgroundService.cs:line 60
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.StartAsync(CancellationToken token)
+---> (Inner Exception #0) System.Data.SqlClient.SqlException (0x80131904): Cannot open database "aspnet-DroidWeb-D1BF49B8-DB09-48E0-BF81-5DB8AEF01BBD" requested by the login. The login failed.
+Login failed for user 'WIN-CAUNPVL5R4J\Administrator'.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DroidWeb.Services.HardwareService.ProcessInScope(IServiceProvider serviceProvider) in C:\Work\Core\Droid\DroidWeb\Services\HardwareService.cs:line 45
+   at DroidWeb.Services.Processors.ScopedProcessor.Process() in C:\Work\Core\Droid\DroidWeb\Services\Processors\ScopedProcessor.cs:line 30
+   at DroidWeb.Services.BackgroundService.ExecuteAsync(CancellationToken stoppingToken) in C:\Work\Core\Droid\DroidWeb\Services\BackgroundService.cs:line 60
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)
+ClientConnectionId:1d3e93b0-dd8b-43cf-b9a6-fcb07b22261d
+Error Number:4060,State:1,Class:11<---
+
+---> (Inner Exception #1) System.NotImplementedException: The method or operation is not implemented.
+   at DroidWeb.Services.RemoteControlService.ProcessInScope(IServiceProvider serviceProvider) in C:\Work\Core\Droid\DroidWeb\Services\RemoteControlService.cs:line 38
+   at DroidWeb.Services.Processors.ScopedProcessor.Process() in C:\Work\Core\Droid\DroidWeb\Services\Processors\ScopedProcessor.cs:line 30
+   at DroidWeb.Services.RemoteControlService.ExecuteAsync(CancellationToken stoppingToken) in C:\Work\Core\Droid\DroidWeb\Services\RemoteControlService.cs:line 29
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)<---
+
+2018-12-19 16:05:53.588 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-12-19 16:06:51.036 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+2018-12-19 16:08:36.518 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:09:55.881 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:12:24.665 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:12:25.135 +01:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:12:25.140 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:12:25.189 +01:00 [Error] Failed executing DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;"
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'droid.__efmigrationshistory' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+2018-12-19 16:13:08.672 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:13:28.096 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:13:28.489 +01:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:13:28.492 +01:00 [Information] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:13:28.512 +01:00 [Error] Failed executing DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;"
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'droid.__efmigrationshistory' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+2018-12-19 16:17:05.252 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:17:05.710 +01:00 [Information] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE DATABASE `droid`"
+2018-12-19 16:17:05.889 +01:00 [Information] Executed DbCommand ("68"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) NOT NULL,
+    `ProductVersion` varchar(32) NOT NULL,
+    PRIMARY KEY (`MigrationId`)
+);"
+2018-12-19 16:17:05.895 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:17:05.901 +01:00 [Information] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;"
+2018-12-19 16:17:05.943 +01:00 [Information] Applying migration '"00000000000000_CreateIdentitySchema"'.
+2018-12-19 16:17:06.029 +01:00 [Information] Executed DbCommand ("19"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetRoles` (
+    `Id` varchar(767) NOT NULL,
+    `Name` varchar(256) NULL,
+    `NormalizedName` varchar(256) NULL,
+    `ConcurrencyStamp` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+2018-12-19 16:17:06.048 +01:00 [Information] Executed DbCommand ("19"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUsers` (
+    `Id` varchar(767) NOT NULL,
+    `UserName` varchar(256) NULL,
+    `NormalizedUserName` varchar(256) NULL,
+    `Email` varchar(256) NULL,
+    `NormalizedEmail` varchar(256) NULL,
+    `EmailConfirmed` bit NOT NULL,
+    `PasswordHash` text NULL,
+    `SecurityStamp` text NULL,
+    `ConcurrencyStamp` text NULL,
+    `PhoneNumber` text NULL,
+    `PhoneNumberConfirmed` bit NOT NULL,
+    `TwoFactorEnabled` bit NOT NULL,
+    `LockoutEnd` timestamp NULL,
+    `LockoutEnabled` bit NOT NULL,
+    `AccessFailedCount` int NOT NULL,
+    PRIMARY KEY (`Id`)
+);"
+2018-12-19 16:17:06.078 +01:00 [Information] Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetRoleClaims` (
+    `Id` int NOT NULL,
+    `RoleId` varchar(767) NOT NULL,
+    `ClaimType` text NULL,
+    `ClaimValue` text NULL,
+    PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_AspNetRoleClaims_AspNetRoles_RoleId` FOREIGN KEY (`RoleId`) REFERENCES `AspNetRoles` (`Id`) ON DELETE CASCADE
+);"
+2018-12-19 16:17:06.112 +01:00 [Information] Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUserClaims` (
+    `Id` int NOT NULL,
+    `UserId` varchar(767) NOT NULL,
+    `ClaimType` text NULL,
+    `ClaimValue` text NULL,
+    PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_AspNetUserClaims_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+);"
+2018-12-19 16:17:06.146 +01:00 [Information] Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUserLogins` (
+    `LoginProvider` varchar(128) NOT NULL,
+    `ProviderKey` varchar(128) NOT NULL,
+    `ProviderDisplayName` text NULL,
+    `UserId` varchar(767) NOT NULL,
+    PRIMARY KEY (`LoginProvider`, `ProviderKey`),
+    CONSTRAINT `FK_AspNetUserLogins_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+);"
+2018-12-19 16:17:06.538 +01:00 [Error] Failed executing DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUserRoles` (
+    `UserId` varchar(767) NOT NULL,
+    `RoleId` varchar(767) NOT NULL,
+    PRIMARY KEY (`UserId`, `RoleId`),
+    CONSTRAINT `FK_AspNetUserRoles_AspNetRoles_RoleId` FOREIGN KEY (`RoleId`) REFERENCES `AspNetRoles` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_AspNetUserRoles_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+);"
+MySql.Data.MySqlClient.MySqlException (0x80004005): Specified key was too long; max key length is 3072 bytes
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+2018-12-19 16:20:54.591 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:21:04.927 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:21:05.553 +01:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:21:05.569 +01:00 [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:21:05.573 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;"
+2018-12-19 16:21:05.609 +01:00 [Information] Applying migration '"00000000000000_CreateIdentitySchema"'.
+2018-12-19 16:21:05.874 +01:00 [Error] Failed executing DbCommand ("18"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetRoles` (
+    `Id` varchar(767) NOT NULL,
+    `Name` varchar(256) NULL,
+    `NormalizedName` varchar(256) NULL,
+    `ConcurrencyStamp` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'aspnetroles' already exists
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+2018-12-19 16:21:26.327 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:21:26.635 +01:00 [Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE DATABASE `droid`"
+2018-12-19 16:21:26.698 +01:00 [Information] Executed DbCommand ("16"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) NOT NULL,
+    `ProductVersion` varchar(32) NOT NULL,
+    PRIMARY KEY (`MigrationId`)
+);"
+2018-12-19 16:21:26.701 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:21:26.703 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;"
+2018-12-19 16:21:26.713 +01:00 [Information] Applying migration '"00000000000000_CreateIdentitySchema"'.
+2018-12-19 16:21:26.768 +01:00 [Information] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetRoles` (
+    `Id` varchar(767) NOT NULL,
+    `Name` varchar(256) NULL,
+    `NormalizedName` varchar(256) NULL,
+    `ConcurrencyStamp` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+2018-12-19 16:21:26.834 +01:00 [Information] Executed DbCommand ("65"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUsers` (
+    `Id` varchar(767) NOT NULL,
+    `UserName` varchar(256) NULL,
+    `NormalizedUserName` varchar(256) NULL,
+    `Email` varchar(256) NULL,
+    `NormalizedEmail` varchar(256) NULL,
+    `EmailConfirmed` bit NOT NULL,
+    `PasswordHash` text NULL,
+    `SecurityStamp` text NULL,
+    `ConcurrencyStamp` text NULL,
+    `PhoneNumber` text NULL,
+    `PhoneNumberConfirmed` bit NOT NULL,
+    `TwoFactorEnabled` bit NOT NULL,
+    `LockoutEnd` timestamp NULL,
+    `LockoutEnabled` bit NOT NULL,
+    `AccessFailedCount` int NOT NULL,
+    PRIMARY KEY (`Id`)
+);"
+2018-12-19 16:21:26.859 +01:00 [Information] Executed DbCommand ("25"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetRoleClaims` (
+    `Id` int NOT NULL,
+    `RoleId` varchar(767) NOT NULL,
+    `ClaimType` text NULL,
+    `ClaimValue` text NULL,
+    PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_AspNetRoleClaims_AspNetRoles_RoleId` FOREIGN KEY (`RoleId`) REFERENCES `AspNetRoles` (`Id`) ON DELETE CASCADE
+);"
+2018-12-19 16:21:27.041 +01:00 [Information] Executed DbCommand ("182"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUserClaims` (
+    `Id` int NOT NULL,
+    `UserId` varchar(767) NOT NULL,
+    `ClaimType` text NULL,
+    `ClaimValue` text NULL,
+    PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_AspNetUserClaims_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+);"
+2018-12-19 16:21:27.071 +01:00 [Information] Executed DbCommand ("30"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUserLogins` (
+    `LoginProvider` varchar(128) NOT NULL,
+    `ProviderKey` varchar(128) NOT NULL,
+    `ProviderDisplayName` text NULL,
+    `UserId` varchar(767) NOT NULL,
+    PRIMARY KEY (`LoginProvider`, `ProviderKey`),
+    CONSTRAINT `FK_AspNetUserLogins_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+);"
+2018-12-19 16:21:27.446 +01:00 [Error] Failed executing DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUserRoles` (
+    `UserId` varchar(767) NOT NULL,
+    `RoleId` varchar(767) NOT NULL,
+    PRIMARY KEY (`UserId`, `RoleId`),
+    CONSTRAINT `FK_AspNetUserRoles_AspNetRoles_RoleId` FOREIGN KEY (`RoleId`) REFERENCES `AspNetRoles` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_AspNetUserRoles_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+);"
+MySql.Data.MySqlClient.MySqlException (0x80004005): Specified key was too long; max key length is 3072 bytes
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+2018-12-19 16:22:15.277 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:22:23.253 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:22:23.605 +01:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:22:23.609 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:22:23.612 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;"
+2018-12-19 16:22:23.622 +01:00 [Information] Applying migration '"20181219152215_Migration-03"'.
+2018-12-19 16:22:23.671 +01:00 [Information] Executed DbCommand ("30"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20181219152215_Migration-03', '2.1.4-rtm-31024');"
+2018-12-19 16:26:52.233 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:27:00.498 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:27:00.923 +01:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:27:00.930 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:27:00.936 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;"
+2018-12-19 16:27:00.953 +01:00 [Information] Applying migration '"20181219152652_Migration-04"'.
+2018-12-19 16:30:49.462 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:30:56.769 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:30:57.077 +01:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:30:57.085 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:30:57.089 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;"
+2018-12-19 16:30:57.111 +01:00 [Information] Applying migration '"20181219152652_Migration-04"'.
+2018-12-19 16:41:19.950 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:41:28.630 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:41:29.008 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:41:29.012 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:41:29.016 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;"
+2018-12-19 16:41:29.027 +01:00 [Information] Applying migration '"20181219152652_Migration-04"'.
+2018-12-19 16:46:44.410 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:46:51.713 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:46:52.021 +01:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:46:52.026 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:46:52.030 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;"
+2018-12-19 16:46:52.040 +01:00 [Information] Applying migration '"20181219152652_Migration-04"'.
+2018-12-19 16:47:29.569 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:47:43.124 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:47:43.492 +01:00 [Information] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE DATABASE `droid`"
+2018-12-19 16:47:43.599 +01:00 [Information] Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) NOT NULL,
+    `ProductVersion` varchar(32) NOT NULL,
+    PRIMARY KEY (`MigrationId`)
+);"
+2018-12-19 16:47:43.604 +01:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:47:43.607 +01:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;"
+2018-12-19 16:47:43.618 +01:00 [Information] Applying migration '"20181219154729_Migration-08"'.
+2018-12-19 16:47:43.638 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20181219154729_Migration-08', '2.1.4-rtm-31024');"
+2018-12-19 16:55:01.728 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:55:09.208 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:55:09.512 +01:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:55:09.516 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:55:09.519 +01:00 [Information] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;"
+2018-12-19 16:55:09.529 +01:00 [Information] Applying migration '"20181219155501_Migration-09"'.
+2018-12-19 16:55:09.546 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20181219155501_Migration-09', '2.1.4-rtm-31024');"
+2018-12-19 16:56:30.928 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:56:38.940 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:56:39.265 +01:00 [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE DATABASE `droid`"
+2018-12-19 16:56:39.340 +01:00 [Information] Executed DbCommand ("24"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) NOT NULL,
+    `ProductVersion` varchar(32) NOT NULL,
+    PRIMARY KEY (`MigrationId`)
+);"
+2018-12-19 16:56:39.345 +01:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2018-12-19 16:56:39.348 +01:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;"
+2018-12-19 16:56:39.360 +01:00 [Information] Applying migration '"20181219155631_Migration-10"'.
+2018-12-19 16:56:39.390 +01:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20181219155631_Migration-10', '2.1.4-rtm-31024');"
+2018-12-19 16:57:16.751 +01:00 [Information] User profile is available. Using '"C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-19 16:57:17.425 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/  
+2018-12-19 16:57:17.424 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:56604/  0
+2018-12-19 16:57:22.182 +01:00 [Information] Request finished in 4758.4231ms 200 
+2018-12-19 16:57:22.731 +01:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2018-12-19 16:57:22.903 +01:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\", page = \"\"}". Executing action "DroidWeb.Controllers.HomeController.Index (DroidWeb)"
+2018-12-19 16:57:22.979 +01:00 [Information] Executing action method "DroidWeb.Controllers.HomeController.Index (DroidWeb)" - Validation state: Valid
+2018-12-19 16:57:22.987 +01:00 [Information] Executed action method "DroidWeb.Controllers.HomeController.Index (DroidWeb)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.654ms.
+2018-12-19 16:57:23.031 +01:00 [Information] Executing ViewResult, running view "Index".
+2018-12-19 16:57:23.443 +01:00 [Information] Executed ViewResult - view "Index" executed in 437.5716ms.
+2018-12-19 16:57:23.448 +01:00 [Information] Executed action "DroidWeb.Controllers.HomeController.Index (DroidWeb)" in 540.6869ms
+2018-12-19 16:57:23.705 +01:00 [Information] Request finished in 6053.5725ms 200 text/html; charset=utf-8
+2018-12-19 16:57:24.303 +01:00 [Error] Failed executing DbCommand ("99"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`"
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'droid.aspnetusers' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+2018-12-19 16:57:24.368 +01:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"DroidWeb.Data.ApplicationDbContext"'."
+""MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'droid.aspnetusers' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()"
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'droid.aspnetusers' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+2018-12-19 16:57:24.558 +01:00 [Fatal] An error occurred starting the application
+System.AggregateException: One or more errors occurred. (Table 'droid.aspnetusers' doesn't exist) (The method or operation is not implemented.) ---> MySql.Data.MySqlClient.MySqlException: Table 'droid.aspnetusers' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DroidWeb.Services.HardwareService.ProcessInScope(IServiceProvider serviceProvider) in C:\Work\Core\Droid\DroidWeb\Services\HardwareService.cs:line 45
+   at DroidWeb.Services.Processors.ScopedProcessor.Process() in C:\Work\Core\Droid\DroidWeb\Services\Processors\ScopedProcessor.cs:line 30
+   at DroidWeb.Services.BackgroundService.ExecuteAsync(CancellationToken stoppingToken) in C:\Work\Core\Droid\DroidWeb\Services\BackgroundService.cs:line 60
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.StartAsync(CancellationToken token)
+---> (Inner Exception #0) MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'droid.aspnetusers' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DroidWeb.Services.HardwareService.ProcessInScope(IServiceProvider serviceProvider) in C:\Work\Core\Droid\DroidWeb\Services\HardwareService.cs:line 45
+   at DroidWeb.Services.Processors.ScopedProcessor.Process() in C:\Work\Core\Droid\DroidWeb\Services\Processors\ScopedProcessor.cs:line 30
+   at DroidWeb.Services.BackgroundService.ExecuteAsync(CancellationToken stoppingToken) in C:\Work\Core\Droid\DroidWeb\Services\BackgroundService.cs:line 60
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)<---
+
+---> (Inner Exception #1) System.NotImplementedException: The method or operation is not implemented.
+   at DroidWeb.Services.RemoteControlService.ProcessInScope(IServiceProvider serviceProvider) in C:\Work\Core\Droid\DroidWeb\Services\RemoteControlService.cs:line 38
+   at DroidWeb.Services.Processors.ScopedProcessor.Process() in C:\Work\Core\Droid\DroidWeb\Services\Processors\ScopedProcessor.cs:line 30
+   at DroidWeb.Services.RemoteControlService.ExecuteAsync(CancellationToken stoppingToken) in C:\Work\Core\Droid\DroidWeb\Services\RemoteControlService.cs:line 29
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)<---
+

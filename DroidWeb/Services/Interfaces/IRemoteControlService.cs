@@ -14,7 +14,7 @@ namespace DroidWeb.Services.Interfaces
         OperationResult ShutDown();
 
         OperationResult FreezeAll();
-        OperationResult FreezeModule(HWModule module);
+        OperationResult FreezeModule(Module module);
 
         OperationResult GetRemoteControlsStatus();
     }

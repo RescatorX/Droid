@@ -12,8 +12,8 @@ namespace DroidWeb.Services.Interfaces
     {
         uint Ticks { get; set; }
 
-        Task<List<HWModule>> GetModules();
-        Task<OperationResult> NotifyModule(HWModule module, string message);
-        Task<OperationResult> GetModuleStatus(HWModule module);
+        Task<List<Module>> GetModules();
+        Task<OperationResult> NotifyModule(Module module, string message);
+        Task<OperationResult> GetModuleStatus(Module module);
     }
 }

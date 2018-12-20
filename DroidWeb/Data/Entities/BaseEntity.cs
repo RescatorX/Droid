@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace DroidWeb.Data.Entities
@@ -8,12 +9,8 @@ namespace DroidWeb.Data.Entities
     public abstract class BaseEntity
     {
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Guid Id { get; set; }
-
-        internal BaseEntity()
-        {
-            this.Id = Guid.NewGuid();
-        }
 
         public abstract override string ToString();
     }

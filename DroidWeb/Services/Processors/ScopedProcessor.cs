@@ -5,23 +5,28 @@ using System.Threading;
 using System.Threading.Tasks;
 
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+
+using DroidWeb.Data;
 
 namespace DroidWeb.Services.Processors
 {
     public abstract class ScopedProcessor : BackgroundService
     {
-        private readonly IServiceScopeFactory _serviceScopeFactory;
+        private readonly IServiceScopeFactory serviceScopeFactory;
+        protected ApplicationDbContext dbContext;
 
         public ScopedProcessor(IServiceScopeFactory serviceScopeFactory)
             : base()
         {
-            _serviceScopeFactory = serviceScopeFactory;
+            this.serviceScopeFactory = serviceScopeFactory;
         }
 
         protected override async Task Process()
         {
-            using (var scope = _serviceScopeFactory.CreateScope())
+            using (var scope = serviceScopeFactory.CreateScope())
             {
+                this.dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
                 await ProcessInScope(scope.ServiceProvider);
             }
         }

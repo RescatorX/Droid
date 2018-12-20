@@ -4,7 +4,9 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
+using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 
 using DroidWeb.Data;
 using DroidWeb.Data.Entities;
@@ -15,6 +17,7 @@ namespace DroidWeb.Services
 {
     public class HardwareService : ScopedProcessor, IHardwareService
     {
+        protected ILogger<HardwareService> logger;
         public uint Ticks { get; set; }
 
         public HardwareService(IServiceScopeFactory serviceScopeFactory)
@@ -25,22 +28,35 @@ namespace DroidWeb.Services
 
         public override Task ProcessInScope(IServiceProvider serviceProvider)
         {
-            Console.WriteLine("HWService processing starts here");
+            this.logger = serviceProvider.GetRequiredService<ILogger<HardwareService>>();
+            if (this.logger != null)
+            {
+                this.logger.LogDebug($"HardwareService.ProcessInScope: HardwareService processing starts here.");
+            }
+            else
+            {
+                Console.WriteLine($"HardwareService.ProcessInScope: HardwareService processing starts here. Warning: No logger found.");
+            }
 
             this.Ticks++;
+
+            if (this.dbContext != null)
+            {
+                List<IdentityUser> users = dbContext.Users.ToList();
+            }
 
             return Task.CompletedTask;
         }
 
-        public async Task<List<HWModule>> GetModules()
+        public async Task<List<Module>> GetModules()
         {
             return await Task.Run(() =>
             {
-                return new List<HWModule>();
+                return new List<Module>();
             });
         }
 
-        public async Task<OperationResult> NotifyModule(HWModule module, string message)
+        public async Task<OperationResult> NotifyModule(Module module, string message)
         {
             return await Task.Run(() =>
             { 
@@ -55,7 +71,7 @@ namespace DroidWeb.Services
             });
         }
 
-        public async Task<OperationResult> GetModuleStatus(HWModule module)
+        public async Task<OperationResult> GetModuleStatus(Module module)
         {
             return await Task.Run(() =>
             {

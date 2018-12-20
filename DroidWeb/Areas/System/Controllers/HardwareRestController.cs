@@ -36,7 +36,7 @@ namespace DroidWeb.Areas.System.Controllers
         [HttpGet]
         public async Task<HardwareModel> GetHardwareModel()
         {
-            List<HWModule> modules = new List<HWModule>();
+            List<Module> modules = new List<Module>();
             if (hardwareService != null)
             {
                 modules = await hardwareService.GetModules();

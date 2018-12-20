@@ -50,7 +50,7 @@ namespace DroidWeb.Services
             };
         }
 
-        public OperationResult FreezeModule(HWModule module)
+        public OperationResult FreezeModule(Module module)
         {
             return new OperationResult()
             {

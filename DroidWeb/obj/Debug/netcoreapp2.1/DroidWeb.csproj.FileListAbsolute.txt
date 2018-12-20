@@ -38,4 +38,3 @@ C:\Work\Core\Droid\DroidWeb\obj\Debug\netcoreapp2.1\Razor\Areas\System\Views\Har
 C:\Work\Core\Droid\DroidWeb\obj\Debug\netcoreapp2.1\Razor\Areas\System\Views\Hardware\Index.g.cshtml.cs
 C:\Work\Core\Droid\DroidWeb\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 C:\Work\Core\Droid\DroidWeb\obj\Debug\netcoreapp2.1\Razor\Areas\System\Views\Position\Index.g.cshtml.cs
-C:\Work\Core\Droid\DroidWeb\obj\Debug\netcoreapp2.1\DroidWeb.csprojAssemblyReference.cache

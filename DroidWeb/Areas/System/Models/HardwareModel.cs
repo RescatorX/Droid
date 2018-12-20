@@ -15,6 +15,6 @@ namespace DroidWeb.Areas.System.Models
 
         public uint Ticks { get; set; }
 
-        public List<HWModule> Modules { get; set; }
+        public List<Module> Modules { get; set; }
     }
 }
