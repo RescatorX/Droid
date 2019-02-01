@@ -16377,3 +16377,995 @@ System.AggregateException: One or more errors occurred. (Table 'droid.aspnetuser
    at DroidWeb.Services.RemoteControlService.ExecuteAsync(CancellationToken stoppingToken) in C:\Work\Core\Droid\DroidWeb\Services\RemoteControlService.cs:line 29
    at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)<---
 
+2019-01-22 15:30:05.181 -08:00 [Information] User profile is available. Using '"C:\Users\Administrator\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-01-22 15:30:08.006 -08:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:56604/  0
+2019-01-22 15:30:08.014 -08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/  
+2019-01-22 15:30:08.165 -08:00 [Information] Request finished in 169.5845ms 200 
+2019-01-22 15:30:09.068 -08:00 [Information] Route matched with "{action = \"Index\", controller = \"Home\", area = \"\", page = \"\"}". Executing action "DroidWeb.Controllers.HomeController.Index (DroidWeb)"
+2019-01-22 15:30:09.128 -08:00 [Information] Executing action method "DroidWeb.Controllers.HomeController.Index (DroidWeb)" - Validation state: Valid
+2019-01-22 15:30:09.136 -08:00 [Information] Executed action method "DroidWeb.Controllers.HomeController.Index (DroidWeb)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 0.6607ms.
+2019-01-22 15:30:09.194 -08:00 [Information] Executing ViewResult, running view "Index".
+2019-01-22 15:30:09.465 -08:00 [Information] Executed ViewResult - view "Index" executed in 290.941ms.
+2019-01-22 15:30:09.470 -08:00 [Information] Executed action "DroidWeb.Controllers.HomeController.Index (DroidWeb)" in 397.5573ms
+2019-01-22 15:30:09.553 -08:00 [Information] Request finished in 1554.2289ms 200 text/html; charset=utf-8
+2019-01-22 15:30:09.627 -08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/lib/bootstrap/dist/css/bootstrap.css  
+2019-01-22 15:30:09.630 -08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/images/banner2.svg  
+2019-01-22 15:30:09.662 -08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/css/site.css  
+2019-01-22 15:30:09.664 -08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/lib/bootstrap/dist/js/bootstrap.js  
+2019-01-22 15:30:09.668 -08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/images/banner1.svg  
+2019-01-22 15:30:09.682 -08:00 [Information] The file "/images/banner2.svg" was not modified
+2019-01-22 15:30:09.684 -08:00 [Information] The file "/lib/bootstrap/dist/js/bootstrap.js" was not modified
+2019-01-22 15:30:09.687 -08:00 [Information] The file "/lib/bootstrap/dist/css/bootstrap.css" was not modified
+2019-01-22 15:30:09.692 -08:00 [Information] The file "/images/banner1.svg" was not modified
+2019-01-22 15:30:09.693 -08:00 [Information] The file "/css/site.css" was not modified
+2019-01-22 15:30:09.696 -08:00 [Information] Request finished in 60.6803ms 304 application/javascript
+2019-01-22 15:30:09.701 -08:00 [Information] Request finished in 73.2981ms 304 image/svg+xml
+2019-01-22 15:30:09.702 -08:00 [Information] Request finished in 89.9021ms 304 text/css
+2019-01-22 15:30:09.710 -08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/lib/jquery/dist/jquery.js  
+2019-01-22 15:30:09.713 -08:00 [Information] Request finished in 62.4647ms 304 image/svg+xml
+2019-01-22 15:30:09.717 -08:00 [Information] The file "/lib/jquery/dist/jquery.js" was not modified
+2019-01-22 15:30:09.723 -08:00 [Information] Request finished in 16.5141ms 304 application/javascript
+2019-01-22 15:30:09.724 -08:00 [Information] Request finished in 62.9878ms 304 text/css
+2019-01-22 15:30:10.015 -08:00 [Information] Entity Framework Core "2.1.2-rtm-30932" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2019-01-22 15:30:10.067 -08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0  
+2019-01-22 15:30:10.074 -08:00 [Information] The file "/js/site.js" was not modified
+2019-01-22 15:30:10.083 -08:00 [Information] Request finished in 51.7556ms 304 application/javascript
+2019-01-22 15:30:10.084 -08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/images/banner3.svg  
+2019-01-22 15:30:10.088 -08:00 [Information] The file "/images/banner3.svg" was not modified
+2019-01-22 15:30:10.092 -08:00 [Information] Request finished in 42.8959ms 304 image/svg+xml
+2019-01-22 15:30:10.105 -08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2  
+2019-01-22 15:30:10.110 -08:00 [Information] The file "/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" was not modified
+2019-01-22 15:30:10.115 -08:00 [Information] Request finished in 14.6119ms 304 font/woff2
+2019-01-22 15:30:10.408 -08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/favicon.ico  
+2019-01-22 15:30:10.427 -08:00 [Information] The file "/favicon.ico" was not modified
+2019-01-22 15:30:10.432 -08:00 [Information] Request finished in 37.7267ms 304 image/x-icon
+2019-01-22 15:30:11.876 -08:00 [Error] Failed executing DbCommand ("103"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `a`.`Id`, `a`.`AccessFailedCount`, `a`.`ConcurrencyStamp`, `a`.`Email`, `a`.`EmailConfirmed`, `a`.`LockoutEnabled`, `a`.`LockoutEnd`, `a`.`NormalizedEmail`, `a`.`NormalizedUserName`, `a`.`PasswordHash`, `a`.`PhoneNumber`, `a`.`PhoneNumberConfirmed`, `a`.`SecurityStamp`, `a`.`TwoFactorEnabled`, `a`.`UserName`
+FROM `AspNetUsers` AS `a`"
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'droid.aspnetusers' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+2019-01-22 15:30:11.892 -08:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"DroidWeb.Data.ApplicationDbContext"'."
+""MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'droid.aspnetusers' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()"
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'droid.aspnetusers' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+2019-01-22 15:30:12.152 -08:00 [Fatal] An error occurred starting the application
+System.AggregateException: One or more errors occurred. (Table 'droid.aspnetusers' doesn't exist) (The method or operation is not implemented.) ---> MySql.Data.MySqlClient.MySqlException: Table 'droid.aspnetusers' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DroidWeb.Services.HardwareService.ProcessInScope(IServiceProvider serviceProvider) in C:\Work\Core\Droid\DroidWeb\Services\HardwareService.cs:line 45
+   at DroidWeb.Services.Processors.ScopedProcessor.Process() in C:\Work\Core\Droid\DroidWeb\Services\Processors\ScopedProcessor.cs:line 30
+   at DroidWeb.Services.BackgroundService.ExecuteAsync(CancellationToken stoppingToken) in C:\Work\Core\Droid\DroidWeb\Services\BackgroundService.cs:line 60
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.StartAsync(CancellationToken token)
+---> (Inner Exception #0) MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'droid.aspnetusers' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.NoopExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at DroidWeb.Services.HardwareService.ProcessInScope(IServiceProvider serviceProvider) in C:\Work\Core\Droid\DroidWeb\Services\HardwareService.cs:line 45
+   at DroidWeb.Services.Processors.ScopedProcessor.Process() in C:\Work\Core\Droid\DroidWeb\Services\Processors\ScopedProcessor.cs:line 30
+   at DroidWeb.Services.BackgroundService.ExecuteAsync(CancellationToken stoppingToken) in C:\Work\Core\Droid\DroidWeb\Services\BackgroundService.cs:line 60
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)<---
+
+---> (Inner Exception #1) System.NotImplementedException: The method or operation is not implemented.
+   at DroidWeb.Services.RemoteControlService.ProcessInScope(IServiceProvider serviceProvider) in C:\Work\Core\Droid\DroidWeb\Services\RemoteControlService.cs:line 38
+   at DroidWeb.Services.Processors.ScopedProcessor.Process() in C:\Work\Core\Droid\DroidWeb\Services\Processors\ScopedProcessor.cs:line 30
+   at DroidWeb.Services.RemoteControlService.ExecuteAsync(CancellationToken stoppingToken) in C:\Work\Core\Droid\DroidWeb\Services\RemoteControlService.cs:line 29
+   at Microsoft.AspNetCore.Hosting.Internal.HostedServiceExecutor.ExecuteAsync(Func`2 callback)<---
+
+2019-01-22 15:30:37.413 -08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/Identity/Account/Login  
+2019-01-22 15:30:37.561 -08:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing action "/Account/Login"
+2019-01-22 15:30:37.610 -08:00 [Information] Executing handler method "OnGetAsync" with arguments ([""]) - ModelState is Valid
+2019-01-22 15:30:37.638 -08:00 [Information] AuthenticationScheme: "Identity.External" signed out.
+2019-01-22 15:30:37.776 -08:00 [Information] Executed action "/Account/Login" in 212.8272ms
+2019-01-22 15:30:37.781 -08:00 [Information] Request finished in 371.7999ms 200 text/html; charset=utf-8
+2019-01-22 15:30:37.850 -08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/Identity/lib/jquery-validation/dist/jquery.validate.js  
+2019-01-22 15:30:37.851 -08:00 [Information] Request starting HTTP/1.1 GET http://localhost:44322/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js  
+2019-01-22 15:30:37.880 -08:00 [Information] The file "/Identity/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" was not modified
+2019-01-22 15:30:37.886 -08:00 [Information] The file "/Identity/lib/jquery-validation/dist/jquery.validate.js" was not modified
+2019-01-22 15:30:37.891 -08:00 [Information] Request finished in 42.6598ms 304 application/javascript
+2019-01-22 15:30:37.895 -08:00 [Information] Request finished in 53.6068ms 304 application/javascript
+2019-01-22 15:30:45.746 -08:00 [Information] Request starting HTTP/1.1 POST http://localhost:44322/Identity/Account/Login application/x-www-form-urlencoded 283
+2019-01-22 15:30:45.752 -08:00 [Information] Route matched with "{page = \"/Account/Login\", area = \"Identity\", action = \"\", controller = \"\"}". Executing action "/Account/Login"
+2019-01-22 15:30:45.824 -08:00 [Information] Executing handler method "OnPostAsync" with arguments ([""]) - ModelState is Valid
+2019-01-22 15:30:45.838 -08:00 [Information] Entity Framework Core "2.1.2-rtm-30932" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2019-01-22 15:30:46.068 -08:00 [Error] Failed executing DbCommand ("21"ms) [Parameters=["@__normalizedUserName_0='?' (Size = -1)"], CommandType='Text', CommandTimeout='30']"
+""SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `AspNetUsers` AS `u`
+WHERE `u`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1"
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'droid.aspnetusers' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+2019-01-22 15:30:46.117 -08:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"DroidWeb.Data.ApplicationDbContext"'."
+""MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'droid.aspnetusers' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)"
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'droid.aspnetusers' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+2019-01-22 15:30:46.139 -08:00 [Error] An exception occurred in the database while iterating the results of a query for context type '"DroidWeb.Data.ApplicationDbContext"'."
+""MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'droid.aspnetusers' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)"
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'droid.aspnetusers' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+2019-01-22 15:30:46.157 -08:00 [Information] Executed action "/Account/Login" in 394.4517ms
+2019-01-22 15:30:46.351 -08:00 [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2019-01-22 15:30:46.373 -08:00 [Error] Failed executing DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;"
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'droid.__efmigrationshistory' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+2019-01-22 15:30:46.384 -08:00 [Error] An exception occurred while calculating the database error page content. Skipping display of the database error page.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'droid.__efmigrationshistory' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Migrations.HistoryRepository.GetAppliedMigrationsAsync(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.GetAppliedMigrationsAsync(DatabaseFacade databaseFacade, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.GetPendingMigrationsAsync(DatabaseFacade databaseFacade, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+2019-01-22 15:30:46.530 -08:00 [Error] An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'droid.aspnetusers' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.SignInManager`1.PasswordSignInAsync(String userName, String password, Boolean isPersistent, Boolean lockoutOnFailure)
+   at Microsoft.AspNetCore.Identity.UI.Pages.Account.Internal.LoginModel`1.OnPostAsync(String returnUrl)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.ExecutorFactory.GenericTaskHandlerMethod.Convert[T](Object taskAsObject)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.ExecutorFactory.GenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Internal.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-01-22 15:30:46.598 -08:00 [Information] Request finished in 852.2421ms 500 text/html; charset=utf-8
+2019-01-29 14:38:46.834 -08:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2019-01-29 14:39:02.649 -08:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2019-01-29 14:39:04.889 -08:00 [Information] Executed DbCommand ("102"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE DATABASE `droid`"
+2019-01-29 14:39:05.063 -08:00 [Information] Executed DbCommand ("121"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) NOT NULL,
+    `ProductVersion` varchar(32) NOT NULL,
+    PRIMARY KEY (`MigrationId`)
+);"
+2019-01-29 14:39:05.066 -08:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2019-01-29 14:39:05.087 -08:00 [Information] Executed DbCommand ("20"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;"
+2019-01-29 14:39:05.162 -08:00 [Information] Applying migration '"20190129223847_M01"'.
+2019-01-29 14:39:05.407 -08:00 [Information] Executed DbCommand ("129"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetRoles` (
+    `Id` varchar(767) NOT NULL,
+    `Name` varchar(256) NULL,
+    `NormalizedName` varchar(256) NULL,
+    `ConcurrencyStamp` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-29 14:39:05.441 -08:00 [Information] Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUsers` (
+    `Id` varchar(767) NOT NULL,
+    `UserName` varchar(256) NULL,
+    `NormalizedUserName` varchar(256) NULL,
+    `Email` varchar(256) NULL,
+    `NormalizedEmail` varchar(256) NULL,
+    `EmailConfirmed` bit NOT NULL,
+    `PasswordHash` text NULL,
+    `SecurityStamp` text NULL,
+    `ConcurrencyStamp` text NULL,
+    `PhoneNumber` text NULL,
+    `PhoneNumberConfirmed` bit NOT NULL,
+    `TwoFactorEnabled` bit NOT NULL,
+    `LockoutEnd` timestamp NULL,
+    `LockoutEnabled` bit NOT NULL,
+    `AccessFailedCount` int NOT NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-29 14:39:05.476 -08:00 [Information] Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `Module` (
+    `Id` varbinary(16) NOT NULL,
+    `Name` text NULL,
+    `Type` text NULL,
+    `Brand` text NULL,
+    `Version` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-29 14:39:05.560 -08:00 [Information] Executed DbCommand ("83"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `Vehicle` (
+    `Id` varbinary(16) NOT NULL,
+    `Name` text NULL,
+    `Type` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-29 14:39:05.611 -08:00 [Information] Executed DbCommand ("50"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetRoleClaims` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `RoleId` varchar(767) NOT NULL,
+    `ClaimType` text NULL,
+    `ClaimValue` text NULL,
+    PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_AspNetRoleClaims_AspNetRoles_RoleId` FOREIGN KEY (`RoleId`) REFERENCES `AspNetRoles` (`Id`) ON DELETE CASCADE
+);"
+2019-01-29 14:39:05.662 -08:00 [Information] Executed DbCommand ("51"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUserClaims` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `UserId` varchar(767) NOT NULL,
+    `ClaimType` text NULL,
+    `ClaimValue` text NULL,
+    PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_AspNetUserClaims_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+);"
+2019-01-29 14:39:05.750 -08:00 [Information] Executed DbCommand ("88"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUserLogins` (
+    `LoginProvider` varchar(128) NOT NULL,
+    `ProviderKey` varchar(128) NOT NULL,
+    `ProviderDisplayName` text NULL,
+    `UserId` varchar(767) NOT NULL,
+    PRIMARY KEY (`LoginProvider`, `ProviderKey`),
+    CONSTRAINT `FK_AspNetUserLogins_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+);"
+2019-01-29 14:39:05.834 -08:00 [Error] Failed executing DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUserRoles` (
+    `UserId` varchar(767) NOT NULL,
+    `RoleId` varchar(767) NOT NULL,
+    PRIMARY KEY (`UserId`, `RoleId`),
+    CONSTRAINT `FK_AspNetUserRoles_AspNetRoles_RoleId` FOREIGN KEY (`RoleId`) REFERENCES `AspNetRoles` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_AspNetUserRoles_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+);"
+MySql.Data.MySqlClient.MySqlException (0x80004005): Specified key was too long; max key length is 3072 bytes
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+2019-01-29 15:11:17.072 -08:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2019-01-29 15:11:33.586 -08:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2019-01-29 15:11:34.160 -08:00 [Information] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE DATABASE `droid`"
+2019-01-29 15:11:34.299 -08:00 [Information] Executed DbCommand ("70"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) NOT NULL,
+    `ProductVersion` varchar(32) NOT NULL,
+    PRIMARY KEY (`MigrationId`)
+);"
+2019-01-29 15:11:34.304 -08:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2019-01-29 15:11:34.308 -08:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;"
+2019-01-29 15:11:34.314 -08:00 [Information] Applying migration '"20190129231117_M01"'.
+2019-01-29 15:11:34.476 -08:00 [Information] Executed DbCommand ("99"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetRoles` (
+    `Id` varchar(767) NOT NULL,
+    `Name` varchar(256) NULL,
+    `NormalizedName` varchar(256) NULL,
+    `ConcurrencyStamp` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-29 15:11:34.534 -08:00 [Information] Executed DbCommand ("57"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUsers` (
+    `Id` varchar(767) NOT NULL,
+    `UserName` varchar(256) NULL,
+    `NormalizedUserName` varchar(256) NULL,
+    `Email` varchar(256) NULL,
+    `NormalizedEmail` varchar(256) NULL,
+    `EmailConfirmed` bit NOT NULL,
+    `PasswordHash` text NULL,
+    `SecurityStamp` text NULL,
+    `ConcurrencyStamp` text NULL,
+    `PhoneNumber` text NULL,
+    `PhoneNumberConfirmed` bit NOT NULL,
+    `TwoFactorEnabled` bit NOT NULL,
+    `LockoutEnd` timestamp NULL,
+    `LockoutEnabled` bit NOT NULL,
+    `AccessFailedCount` int NOT NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-29 15:11:34.612 -08:00 [Information] Executed DbCommand ("77"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `Module` (
+    `Id` varbinary(16) NOT NULL,
+    `Name` text NULL,
+    `Type` text NULL,
+    `Brand` text NULL,
+    `Version` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-29 15:11:34.652 -08:00 [Information] Executed DbCommand ("39"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `Vehicle` (
+    `Id` varbinary(16) NOT NULL,
+    `Name` text NULL,
+    `Type` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-29 15:11:34.716 -08:00 [Information] Executed DbCommand ("64"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetRoleClaims` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `RoleId` varchar(767) NOT NULL,
+    `ClaimType` text NULL,
+    `ClaimValue` text NULL,
+    PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_AspNetRoleClaims_AspNetRoles_RoleId` FOREIGN KEY (`RoleId`) REFERENCES `AspNetRoles` (`Id`) ON DELETE CASCADE
+);"
+2019-01-29 15:11:34.788 -08:00 [Information] Executed DbCommand ("71"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUserClaims` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `UserId` varchar(767) NOT NULL,
+    `ClaimType` text NULL,
+    `ClaimValue` text NULL,
+    PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_AspNetUserClaims_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+);"
+2019-01-29 15:11:34.840 -08:00 [Information] Executed DbCommand ("52"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUserLogins` (
+    `LoginProvider` varchar(128) NOT NULL,
+    `ProviderKey` varchar(128) NOT NULL,
+    `ProviderDisplayName` text NULL,
+    `UserId` varchar(767) NOT NULL,
+    PRIMARY KEY (`LoginProvider`, `ProviderKey`),
+    CONSTRAINT `FK_AspNetUserLogins_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+);"
+2019-01-29 15:11:34.864 -08:00 [Error] Failed executing DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUserRoles` (
+    `UserId` varchar(767) NOT NULL,
+    `RoleId` varchar(767) NOT NULL,
+    PRIMARY KEY (`UserId`, `RoleId`),
+    CONSTRAINT `FK_AspNetUserRoles_AspNetRoles_RoleId` FOREIGN KEY (`RoleId`) REFERENCES `AspNetRoles` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_AspNetUserRoles_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+);"
+MySql.Data.MySqlClient.MySqlException (0x80004005): Specified key was too long; max key length is 3072 bytes
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+2019-01-29 15:14:06.064 -08:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2019-01-29 15:14:20.531 -08:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2019-01-29 15:14:21.102 -08:00 [Information] Executed DbCommand ("127"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE DATABASE `droid`"
+2019-01-29 15:14:21.238 -08:00 [Information] Executed DbCommand ("76"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) NOT NULL,
+    `ProductVersion` varchar(32) NOT NULL,
+    PRIMARY KEY (`MigrationId`)
+);"
+2019-01-29 15:14:21.242 -08:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2019-01-29 15:14:21.245 -08:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;"
+2019-01-29 15:14:21.250 -08:00 [Information] Applying migration '"20190129231406_M01"'.
+2019-01-29 15:14:21.404 -08:00 [Information] Executed DbCommand ("105"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetRoles` (
+    `Id` varchar(767) NOT NULL,
+    `Name` varchar(256) NULL,
+    `NormalizedName` varchar(256) NULL,
+    `ConcurrencyStamp` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-29 15:14:21.450 -08:00 [Information] Executed DbCommand ("45"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUsers` (
+    `Id` varchar(767) NOT NULL,
+    `UserName` varchar(256) NULL,
+    `NormalizedUserName` varchar(256) NULL,
+    `Email` varchar(256) NULL,
+    `NormalizedEmail` varchar(256) NULL,
+    `EmailConfirmed` bit NOT NULL,
+    `PasswordHash` text NULL,
+    `SecurityStamp` text NULL,
+    `ConcurrencyStamp` text NULL,
+    `PhoneNumber` text NULL,
+    `PhoneNumberConfirmed` bit NOT NULL,
+    `TwoFactorEnabled` bit NOT NULL,
+    `LockoutEnd` timestamp NULL,
+    `LockoutEnabled` bit NOT NULL,
+    `AccessFailedCount` int NOT NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-29 15:14:21.485 -08:00 [Information] Executed DbCommand ("35"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `Module` (
+    `Id` varbinary(16) NOT NULL,
+    `Name` text NULL,
+    `Type` text NULL,
+    `Brand` text NULL,
+    `Version` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-29 15:14:21.512 -08:00 [Information] Executed DbCommand ("24"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `Vehicle` (
+    `Id` varbinary(16) NOT NULL,
+    `Name` text NULL,
+    `Type` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-29 15:14:21.634 -08:00 [Information] Executed DbCommand ("122"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetRoleClaims` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `RoleId` varchar(767) NOT NULL,
+    `ClaimType` text NULL,
+    `ClaimValue` text NULL,
+    PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_AspNetRoleClaims_AspNetRoles_RoleId` FOREIGN KEY (`RoleId`) REFERENCES `AspNetRoles` (`Id`) ON DELETE CASCADE
+);"
+2019-01-29 15:14:21.678 -08:00 [Information] Executed DbCommand ("44"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUserClaims` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `UserId` varchar(767) NOT NULL,
+    `ClaimType` text NULL,
+    `ClaimValue` text NULL,
+    PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_AspNetUserClaims_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+);"
+2019-01-29 15:14:21.726 -08:00 [Information] Executed DbCommand ("47"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUserLogins` (
+    `LoginProvider` varchar(128) NOT NULL,
+    `ProviderKey` varchar(128) NOT NULL,
+    `ProviderDisplayName` text NULL,
+    `UserId` varchar(767) NOT NULL,
+    PRIMARY KEY (`LoginProvider`, `ProviderKey`),
+    CONSTRAINT `FK_AspNetUserLogins_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+);"
+2019-01-29 15:14:21.747 -08:00 [Error] Failed executing DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUserRoles` (
+    `UserId` varchar(767) NOT NULL,
+    `RoleId` varchar(767) NOT NULL,
+    PRIMARY KEY (`UserId`, `RoleId`),
+    CONSTRAINT `FK_AspNetUserRoles_AspNetRoles_RoleId` FOREIGN KEY (`RoleId`) REFERENCES `AspNetRoles` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_AspNetUserRoles_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+);"
+MySql.Data.MySqlClient.MySqlException (0x80004005): Specified key was too long; max key length is 3072 bytes
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+2019-01-29 15:19:06.770 -08:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2019-01-29 15:19:14.417 -08:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2019-01-29 15:19:15.084 -08:00 [Information] Executed DbCommand ("101"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE DATABASE `droid`"
+2019-01-29 15:19:15.282 -08:00 [Information] Executed DbCommand ("144"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) NOT NULL,
+    `ProductVersion` varchar(32) NOT NULL,
+    PRIMARY KEY (`MigrationId`)
+);"
+2019-01-29 15:19:15.286 -08:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2019-01-29 15:19:15.297 -08:00 [Information] Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;"
+2019-01-29 15:19:15.302 -08:00 [Information] Applying migration '"20190129231906_M01"'.
+2019-01-29 15:19:15.383 -08:00 [Information] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetRoles` (
+    `Id` varchar(767) NOT NULL,
+    `Name` varchar(256) NULL,
+    `NormalizedName` varchar(256) NULL,
+    `ConcurrencyStamp` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-29 15:19:15.487 -08:00 [Information] Executed DbCommand ("103"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUsers` (
+    `Id` varchar(767) NOT NULL,
+    `UserName` varchar(256) NULL,
+    `NormalizedUserName` varchar(256) NULL,
+    `Email` varchar(256) NULL,
+    `NormalizedEmail` varchar(256) NULL,
+    `EmailConfirmed` bit NOT NULL,
+    `PasswordHash` text NULL,
+    `SecurityStamp` text NULL,
+    `ConcurrencyStamp` text NULL,
+    `PhoneNumber` text NULL,
+    `PhoneNumberConfirmed` bit NOT NULL,
+    `TwoFactorEnabled` bit NOT NULL,
+    `LockoutEnd` timestamp NULL,
+    `LockoutEnabled` bit NOT NULL,
+    `AccessFailedCount` int NOT NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-29 15:19:15.525 -08:00 [Information] Executed DbCommand ("38"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `Module` (
+    `Id` varbinary(16) NOT NULL,
+    `Name` text NULL,
+    `Type` text NULL,
+    `Brand` text NULL,
+    `Version` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-29 15:19:15.552 -08:00 [Information] Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `Position` (
+    `Id` varbinary(16) NOT NULL,
+    `Module` text NULL,
+    `Type` int NOT NULL,
+    `Valid` bit NOT NULL,
+    `X` double NULL,
+    `Y` double NULL,
+    `Z` double NULL,
+    `DeviationX` double NULL,
+    `DeviationY` double NULL,
+    `DeviationZ` double NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-29 15:19:15.584 -08:00 [Information] Executed DbCommand ("31"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `Vehicle` (
+    `Id` varbinary(16) NOT NULL,
+    `Name` text NULL,
+    `Type` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-29 15:19:15.821 -08:00 [Information] Executed DbCommand ("87"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetRoleClaims` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `RoleId` varchar(767) NOT NULL,
+    `ClaimType` text NULL,
+    `ClaimValue` text NULL,
+    PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_AspNetRoleClaims_AspNetRoles_RoleId` FOREIGN KEY (`RoleId`) REFERENCES `AspNetRoles` (`Id`) ON DELETE CASCADE
+);"
+2019-01-29 15:19:15.870 -08:00 [Information] Executed DbCommand ("49"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUserClaims` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `UserId` varchar(767) NOT NULL,
+    `ClaimType` text NULL,
+    `ClaimValue` text NULL,
+    PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_AspNetUserClaims_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+);"
+2019-01-29 15:19:15.911 -08:00 [Information] Executed DbCommand ("41"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUserLogins` (
+    `LoginProvider` varchar(128) NOT NULL,
+    `ProviderKey` varchar(128) NOT NULL,
+    `ProviderDisplayName` text NULL,
+    `UserId` varchar(767) NOT NULL,
+    PRIMARY KEY (`LoginProvider`, `ProviderKey`),
+    CONSTRAINT `FK_AspNetUserLogins_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+);"
+2019-01-29 15:19:15.927 -08:00 [Error] Failed executing DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUserRoles` (
+    `UserId` varchar(767) NOT NULL,
+    `RoleId` varchar(767) NOT NULL,
+    PRIMARY KEY (`UserId`, `RoleId`),
+    CONSTRAINT `FK_AspNetUserRoles_AspNetRoles_RoleId` FOREIGN KEY (`RoleId`) REFERENCES `AspNetRoles` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_AspNetUserRoles_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+);"
+MySql.Data.MySqlClient.MySqlException (0x80004005): Specified key was too long; max key length is 3072 bytes
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+2019-01-30 12:47:58.618 -08:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2019-01-30 12:59:24.080 -08:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2019-01-30 13:00:33.167 -08:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2019-01-30 13:00:52.635 -08:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2019-01-30 13:00:54.955 -08:00 [Information] Executed DbCommand ("58"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE DATABASE `droid`"
+2019-01-30 13:00:55.157 -08:00 [Information] Executed DbCommand ("147"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) NOT NULL,
+    `ProductVersion` varchar(32) NOT NULL,
+    PRIMARY KEY (`MigrationId`)
+);"
+2019-01-30 13:00:55.164 -08:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2019-01-30 13:00:55.170 -08:00 [Information] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;"
+2019-01-30 13:00:55.200 -08:00 [Information] Applying migration '"20190130210033_M01"'.
+2019-01-30 13:00:55.366 -08:00 [Information] Executed DbCommand ("88"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetRoles` (
+    `Id` varchar(767) NOT NULL,
+    `Name` varchar(256) NULL,
+    `NormalizedName` varchar(256) NULL,
+    `ConcurrencyStamp` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-30 13:00:55.411 -08:00 [Information] Executed DbCommand ("45"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUsers` (
+    `Id` varchar(767) NOT NULL,
+    `UserName` varchar(256) NULL,
+    `NormalizedUserName` varchar(256) NULL,
+    `Email` varchar(256) NULL,
+    `NormalizedEmail` varchar(256) NULL,
+    `EmailConfirmed` bit NOT NULL,
+    `PasswordHash` text NULL,
+    `SecurityStamp` text NULL,
+    `ConcurrencyStamp` text NULL,
+    `PhoneNumber` text NULL,
+    `PhoneNumberConfirmed` bit NOT NULL,
+    `TwoFactorEnabled` bit NOT NULL,
+    `LockoutEnd` timestamp NULL,
+    `LockoutEnabled` bit NOT NULL,
+    `AccessFailedCount` int NOT NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-30 13:00:55.457 -08:00 [Information] Executed DbCommand ("45"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `Module` (
+    `Id` varbinary(16) NOT NULL,
+    `Name` text NULL,
+    `Type` text NULL,
+    `Brand` text NULL,
+    `Version` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-30 13:00:55.496 -08:00 [Information] Executed DbCommand ("38"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `Position` (
+    `Id` varbinary(16) NOT NULL,
+    `Module` text NULL,
+    `Type` int NOT NULL,
+    `Valid` bit NOT NULL,
+    `X` double NULL,
+    `Y` double NULL,
+    `Z` double NULL,
+    `DeviationX` double NULL,
+    `DeviationY` double NULL,
+    `DeviationZ` double NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-30 13:00:55.703 -08:00 [Information] Executed DbCommand ("75"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `Vehicle` (
+    `Id` varbinary(16) NOT NULL,
+    `Name` text NULL,
+    `Type` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-30 13:00:55.792 -08:00 [Information] Executed DbCommand ("90"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetRoleClaims` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `RoleId` varchar(767) NOT NULL,
+    `ClaimType` text NULL,
+    `ClaimValue` text NULL,
+    PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_AspNetRoleClaims_AspNetRoles_RoleId` FOREIGN KEY (`RoleId`) REFERENCES `AspNetRoles` (`Id`) ON DELETE CASCADE
+);"
+2019-01-30 13:00:55.843 -08:00 [Information] Executed DbCommand ("50"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUserClaims` (
+    `Id` int NOT NULL AUTO_INCREMENT,
+    `UserId` varchar(767) NOT NULL,
+    `ClaimType` text NULL,
+    `ClaimValue` text NULL,
+    PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_AspNetUserClaims_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+);"
+2019-01-30 13:00:55.896 -08:00 [Information] Executed DbCommand ("53"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUserLogins` (
+    `LoginProvider` varchar(128) NOT NULL,
+    `ProviderKey` varchar(128) NOT NULL,
+    `ProviderDisplayName` text NULL,
+    `UserId` varchar(767) NOT NULL,
+    PRIMARY KEY (`LoginProvider`, `ProviderKey`),
+    CONSTRAINT `FK_AspNetUserLogins_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+);"
+2019-01-30 13:00:56.400 -08:00 [Error] Failed executing DbCommand ("93"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `AspNetUserRoles` (
+    `UserId` varchar(767) NOT NULL,
+    `RoleId` varchar(767) NOT NULL,
+    PRIMARY KEY (`UserId`, `RoleId`),
+    CONSTRAINT `FK_AspNetUserRoles_AspNetRoles_RoleId` FOREIGN KEY (`RoleId`) REFERENCES `AspNetRoles` (`Id`) ON DELETE CASCADE,
+    CONSTRAINT `FK_AspNetUserRoles_AspNetUsers_UserId` FOREIGN KEY (`UserId`) REFERENCES `AspNetUsers` (`Id`) ON DELETE CASCADE
+);"
+MySql.Data.MySqlClient.MySqlException (0x80004005): Specified key was too long; max key length is 3072 bytes
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+2019-01-30 13:05:58.433 -08:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2019-01-30 13:06:06.954 -08:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2019-01-30 13:06:07.579 -08:00 [Information] Executed DbCommand ("100"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE DATABASE `droid`"
+2019-01-30 13:06:07.808 -08:00 [Information] Executed DbCommand ("177"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) NOT NULL,
+    `ProductVersion` varchar(32) NOT NULL,
+    PRIMARY KEY (`MigrationId`)
+);"
+2019-01-30 13:06:07.812 -08:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2019-01-30 13:06:07.815 -08:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;"
+2019-01-30 13:06:07.819 -08:00 [Information] Applying migration '"20190130210558_M01"'.
+2019-01-30 13:06:07.904 -08:00 [Information] Executed DbCommand ("67"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `Module` (
+    `Id` varbinary(16) NOT NULL,
+    `Name` text NULL,
+    `Type` text NULL,
+    `Brand` text NULL,
+    `Version` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-30 13:06:07.939 -08:00 [Information] Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `Position` (
+    `Id` varbinary(16) NOT NULL,
+    `Module` text NULL,
+    `Type` int NOT NULL,
+    `Valid` bit NOT NULL,
+    `X` double NULL,
+    `Y` double NULL,
+    `Z` double NULL,
+    `DeviationX` double NULL,
+    `DeviationY` double NULL,
+    `DeviationZ` double NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-30 13:06:07.976 -08:00 [Information] Executed DbCommand ("37"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `Vehicle` (
+    `Id` varbinary(16) NOT NULL,
+    `Name` text NULL,
+    `Type` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-30 13:06:07.996 -08:00 [Information] Executed DbCommand ("19"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20190130210558_M01', '2.1.4-rtm-31024');"
+2019-01-30 13:10:26.286 -08:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2019-01-30 13:10:32.722 -08:00 [Information] Entity Framework Core "2.1.4-rtm-31024" initialized '"ApplicationDbContext"' using provider '"MySql.Data.EntityFrameworkCore"' with options: "None"
+2019-01-30 13:10:33.321 -08:00 [Information] Executed DbCommand ("99"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE DATABASE `droid`"
+2019-01-30 13:10:33.684 -08:00 [Information] Executed DbCommand ("308"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `__EFMigrationsHistory` (
+    `MigrationId` varchar(150) NOT NULL,
+    `ProductVersion` varchar(32) NOT NULL,
+    PRIMARY KEY (`MigrationId`)
+);"
+2019-01-30 13:10:33.688 -08:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1 FROM information_schema.tables 
+WHERE table_name = '
+__EFMigrationsHistory' AND table_schema = DATABASE()"
+2019-01-30 13:10:33.753 -08:00 [Information] Executed DbCommand ("64"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT `MigrationId`, `ProductVersion`
+FROM `__EFMigrationsHistory`
+ORDER BY `MigrationId`;"
+2019-01-30 13:10:33.758 -08:00 [Information] Applying migration '"20190130211026_M01"'.
+2019-01-30 13:10:33.857 -08:00 [Information] Executed DbCommand ("76"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `Module` (
+    `Id` varbinary(16) NOT NULL,
+    `Name` text NULL,
+    `Type` text NULL,
+    `Brand` text NULL,
+    `Version` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-30 13:10:33.954 -08:00 [Information] Executed DbCommand ("96"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `Vehicle` (
+    `Id` varbinary(16) NOT NULL,
+    `Name` text NULL,
+    `Type` text NULL,
+    PRIMARY KEY (`Id`)
+);"
+2019-01-30 13:10:34.025 -08:00 [Information] Executed DbCommand ("71"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE `Position` (
+    `Id` varbinary(16) NOT NULL,
+    `ModuleId` varbinary(16) NULL,
+    `Type` int NOT NULL,
+    `Valid` bit NOT NULL,
+    `X` double NULL,
+    `Y` double NULL,
+    `Z` double NULL,
+    `DeviationX` double NULL,
+    `DeviationY` double NULL,
+    `DeviationZ` double NULL,
+    PRIMARY KEY (`Id`),
+    CONSTRAINT `FK_Position_Module_ModuleId` FOREIGN KEY (`ModuleId`) REFERENCES `Module` (`Id`) ON DELETE RESTRICT
+);"
+2019-01-30 13:10:34.099 -08:00 [Information] Executed DbCommand ("73"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX `IX_Position_ModuleId` ON `Position` (`ModuleId`);"
+2019-01-30 13:10:34.103 -08:00 [Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO `__EFMigrationsHistory` (`MigrationId`, `ProductVersion`)
+VALUES ('20190130211026_M01', '2.1.4-rtm-31024');"

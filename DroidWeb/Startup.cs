@@ -39,7 +39,7 @@ namespace DroidWeb
             });
 
             services.AddDbContext<ApplicationDbContext>(options => options.UseMySQL(Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<ApplicationDbContext>();
+            //services.AddDefaultIdentity<IdentityUser>().AddEntityFrameworkStores<ApplicationDbContext>();
 
             services.AddSingleton<IHostedService, HardwareService>();
             services.AddSingleton<IHostedService, RemoteControlService>();

@@ -40,62 +40,27 @@ namespace DroidWeb.Services
 
         public OperationResult FreezeAll()
         {
-            return new OperationResult()
-            {
-                Requested = DateTime.Now,
-                Finished = DateTime.Now,
-                Request = string.Empty,
-                Response = string.Empty,
-                Result = OperationResultType.Success
-            };
+            return new OperationResult(OperationResultType.Success, string.Empty, string.Empty, DateTime.Now, DateTime.Now);
         }
 
         public OperationResult FreezeModule(Module module)
         {
-            return new OperationResult()
-            {
-                Requested = DateTime.Now,
-                Finished = DateTime.Now,
-                Request = string.Empty,
-                Response = string.Empty,
-                Result = OperationResultType.Success
-            };
+            return new OperationResult(OperationResultType.Success, string.Empty, string.Empty, DateTime.Now, DateTime.Now);
         }
 
         public OperationResult GetRemoteControlsStatus()
         {
-            return new OperationResult()
-            {
-                Requested = DateTime.Now,
-                Finished = DateTime.Now,
-                Request = string.Empty,
-                Response = string.Empty,
-                Result = OperationResultType.Success
-            };
+            return new OperationResult(OperationResultType.Success, string.Empty, string.Empty, DateTime.Now, DateTime.Now);
         }
 
         public OperationResult ShutDown()
         {
-            return new OperationResult()
-            {
-                Requested = DateTime.Now,
-                Finished = DateTime.Now,
-                Request = string.Empty,
-                Response = string.Empty,
-                Result = OperationResultType.Success
-            };
+            return new OperationResult(OperationResultType.Success, string.Empty, string.Empty, DateTime.Now, DateTime.Now);
         }
 
         public OperationResult StartUp()
         {
-            return new OperationResult()
-            {
-                Requested = DateTime.Now,
-                Finished = DateTime.Now,
-                Request = string.Empty,
-                Response = string.Empty,
-                Result = OperationResultType.Success
-            };
+            return new OperationResult(OperationResultType.Success, string.Empty, string.Empty, DateTime.Now, DateTime.Now);
         }
     }
 }

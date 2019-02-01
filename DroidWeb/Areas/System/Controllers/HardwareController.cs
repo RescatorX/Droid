@@ -43,17 +43,14 @@ namespace DroidWeb.Areas.System.Controllers
             return await Task.Run(async () =>
             {
                 List<Module> modules = new List<Module>();
-                uint ticks = 0;
                 if (this.hardwareService != null)
                 {
                     modules = await this.hardwareService.GetModules();
-                    ticks = this.hardwareService.Ticks;
                     logger.LogDebug($"HardwareController.Index: {modules.Count} modules found");
                 }
 
                 HardwareModel model = new HardwareModel();
                 model.Modules = modules;
-                model.Ticks = ticks;
 
                 return View(model);
             });
@@ -64,7 +61,6 @@ namespace DroidWeb.Areas.System.Controllers
             uint ticks = 0;
             if (this.hardwareService != null)
             {
-                ticks = this.hardwareService.Ticks;
                 logger.LogDebug($"HardwareController.GetTicks: {ticks} ticks found");
             }
 

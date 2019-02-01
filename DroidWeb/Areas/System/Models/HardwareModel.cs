@@ -13,8 +13,6 @@ namespace DroidWeb.Areas.System.Models
         [Key]
         public Guid Id { get; set; }
 
-        public uint Ticks { get; set; }
-
         public List<Module> Modules { get; set; }
     }
 }

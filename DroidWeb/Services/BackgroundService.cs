@@ -10,6 +10,8 @@ namespace DroidWeb.Services
 {
     public abstract class BackgroundService : IHostedService
     {
+        protected int LoopDelay { get; set; } = 5000;
+
         private Task _executingTask;
         private readonly CancellationTokenSource _stoppingCts = new CancellationTokenSource();
 
@@ -59,7 +61,7 @@ namespace DroidWeb.Services
             {
                 await Process();
 
-                await Task.Delay(5000, stoppingToken); //5 seconds delay
+                await Task.Delay(this.LoopDelay, stoppingToken); //5 seconds delay
             }
             while (!stoppingToken.IsCancellationRequested);
         }

@@ -12,62 +12,54 @@ using DroidWeb.Data;
 using DroidWeb.Data.Entities;
 using DroidWeb.Services.Interfaces;
 using DroidWeb.Services.Processors;
+using DroidWeb.Business.Providers.Hardware;
 
 namespace DroidWeb.Services
 {
     public class HardwareService : ScopedProcessor, IHardwareService
     {
-        protected ILogger<HardwareService> logger;
-        public uint Ticks { get; set; }
+        private ILogger<HardwareService> Logger;
+        private List<Module> Modules;
 
         public HardwareService(IServiceScopeFactory serviceScopeFactory)
             : base(serviceScopeFactory)
         {
-            this.Ticks = 100;
+            this.LoopDelay = 2000;
         }
 
         public override Task ProcessInScope(IServiceProvider serviceProvider)
         {
-            this.logger = serviceProvider.GetRequiredService<ILogger<HardwareService>>();
-            if (this.logger != null)
+            this.Logger = serviceProvider.GetRequiredService<ILogger<HardwareService>>();
+            if (this.Logger != null)
             {
-                this.logger.LogDebug($"HardwareService.ProcessInScope: HardwareService processing starts here.");
+                this.Logger.LogDebug($"HardwareService.ProcessInScope: HardwareService processing starts here.");
             }
             else
             {
                 Console.WriteLine($"HardwareService.ProcessInScope: HardwareService processing starts here. Warning: No logger found.");
             }
 
-            this.Ticks++;
-
-            if (this.dbContext != null)
-            {
-                List<IdentityUser> users = dbContext.Users.ToList();
-            }
-
             return Task.CompletedTask;
         }
 
-        public async Task<List<Module>> GetModules()
+        public async Task<List<Module>> GetModules(bool refresh = false)
         {
             return await Task.Run(() =>
             {
-                return new List<Module>();
+                if (refresh)
+                {
+                    ObtainModules();
+                }
+
+                return this.Modules;
             });
         }
 
         public async Task<OperationResult> NotifyModule(Module module, string message)
         {
             return await Task.Run(() =>
-            { 
-                return new OperationResult()
-                {
-                    Requested = DateTime.Now,
-                    Finished = DateTime.Now,
-                    Request = string.Empty,
-                    Response = string.Empty,
-                    Result = OperationResultType.Success
-                };
+            {
+                return new OperationResult(OperationResultType.Success, string.Empty, string.Empty, DateTime.Now, DateTime.Now);
             });
         }
 
@@ -75,15 +67,16 @@ namespace DroidWeb.Services
         {
             return await Task.Run(() =>
             {
-                return new OperationResult()
-                {
-                    Requested = DateTime.Now,
-                    Finished = DateTime.Now,
-                    Request = string.Empty,
-                    Response = string.Empty,
-                    Result = OperationResultType.Success
-                };
+                return new OperationResult(OperationResultType.Success, string.Empty, string.Empty, DateTime.Now, DateTime.Now);
             });
+        }
+
+        private void ObtainModules()
+        {
+            this.Modules = new List<Module>();
+
+            CommunicationProvider<IUARTCommunication> uartCommProvider = new CommunicationProvider<IUARTCommunication>();
+            this.Modules.AddRange(uartCommProvider.GetModules());
         }
     }
 }
